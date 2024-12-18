@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CalCount - AI-Powered Nutritional Analysis | DataTalk</title>
+    <meta name="description" content="CalCount uses advanced Vision AI to analyze food and provide accurate nutritional information for healthcare monitoring.">
+    
+    <!-- Same styling dependencies as main app -->
+    <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/minty/bootstrap.min.css">
+    <link rel="icon" type="image/svg+xml" href="/static/favicon.svg">
+    
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+
+        @keyframes float {
+            0% {
+                transform: translateY(0px);
+            }
+            50% {
+                transform: translateY(-20px);
+            }
+            100% {
+                transform: translateY(0px);
+            }
+        }
+
+        .app-screenshot {
+            border-radius: 25px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+            animation: float 6s ease-in-out infinite;
+            transition: transform 0.3s ease;
+        }
+
+        .app-screenshot:hover {
+            transform: scale(1.02);
+        }
+        
+        .hero {
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            padding: 100px 0;
+        }
+        
+        .brand-name {
+            font-family: 'Kalam', cursive;
+            color: #484848;
+        }
+        
+        .feature-icon {
+            font-size: 2.5rem;
+            color: #78c2ad;
+            margin-bottom: 1rem;
+        }
+        
+        .section {
+            padding: 80px 0;
+        }
+        
+        .section-alt {
+            background-color: #f8f9fa;
+        }
+        
+        .healthcare-card {
+            border: none;
+            border-radius: 15px;
+            transition: transform 0.3s ease;
+        }
+        
+        .healthcare-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .cta-section {
+            background: linear-gradient(135deg, #78c2ad 0%, #4e95d3 100%);
+            color: white;
+            padding: 60px 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <div class="hero">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="display-4 mb-3"><span class="brand-name">CalCount</span></h1>
+                    <h2 class="h3 mb-4">Revolutionizing Healthcare Monitoring with AI-Powered Nutrition Analysis</h2>
+                    <p class="lead mb-4">Transform food tracking with our advanced Vision AI technology. Simply take a photo or describe your meal, and let our AI handle the rest.</p>
+                    <div class="mb-4">
+                        <a href="https://calcount.site" class="btn btn-primary btn-lg me-2">Try It Now</a>
+                        <a href="mailto:mail@datatalk.be" class="btn btn-outline-primary btn-lg">Contact Us</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <img src="screenshot.png" alt="CalCount App Demo" class="img-fluid app-screenshot" style="max-width: 300px;">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Features Section -->
+    <div class="section">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-4 mb-4">
+                    <i class="bi bi-camera feature-icon"></i>
+                    <h3>Vision AI Technology</h3>
+                    <p>Advanced image recognition accurately identifies food items and portions</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <i class="bi bi-graph-up feature-icon"></i>
+                    <h3>Precise Tracking</h3>
+                    <p>Detailed nutritional analysis for informed healthcare decisions</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <i class="bi bi-shield-check feature-icon"></i>
+                    <h3>Healthcare Focus</h3>
+                    <p>Designed for medical monitoring and patient care</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Healthcare Use Cases -->
+    <div class="section section-alt">
+        <div class="container">
+            <h2 class="text-center mb-5">Healthcare Applications</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card healthcare-card h-100">
+                        <div class="card-body">
+                            <h3 class="h5 mb-3">Weight Management</h3>
+                            <p>Support obesity treatment programs with accurate calorie and nutrient tracking</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card healthcare-card h-100">
+                        <div class="card-body">
+                            <h3 class="h5 mb-3">Cardiac Care</h3>
+                            <p>Monitor sodium intake and heart-healthy dietary compliance</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card healthcare-card h-100">
+                        <div class="card-body">
+                            <h3 class="h5 mb-3">Diabetes Management</h3>
+                            <p>Track carbohydrate intake and glycemic load of meals</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CTA Section -->
+    <div class="cta-section">
+        <div class="container text-center">
+            <h2 class="mb-4">Ready to Transform Patient Care?</h2>
+            <p class="lead mb-4">Join healthcare providers already using CalCount for better patient outcomes</p>
+            <a href="mailto:mail@datatalk.be" class="btn btn-light btn-lg">Contact Us</a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h4 class="brand-name">CalCount</h4>
+                    <p>A product of <a href="https://datatalk.be" target="_blank" rel="noopener">DataTalk</a></p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <a href="https://datatalk.be/privacy" class="text-muted me-3">Privacy Policy</a>
+                    <a href="https://datatalk.be/security" class="text-muted me-3">Security Policy</a>
+                    <a href="https://datatalk.be/eula" class="text-muted">EULA</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
