@@ -132,6 +132,77 @@
             color: white;
             padding: 60px 0;
         }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .hero {
+                padding: 60px 0;
+                text-align: center; /* Center text on smaller screens */
+            }
+            .hero h1 {
+                font-size: 2.5rem; /* Reduce H1 size */
+            }
+            .hero h2 {
+                font-size: 1.1rem; /* Adjust H2 size */
+            }
+            .hero .lead {
+                font-size: 1rem; /* Adjust lead paragraph size */
+            }
+            .app-screenshot {
+                margin-top: 30px; /* Add space above screenshot on mobile */
+                max-width: 250px; /* Slightly smaller screenshot */
+            }
+            .cta-section h2 {
+                font-size: 1.8rem; /* Adjust CTA heading size */
+            }
+            .cta-section .lead {
+                font-size: 1rem; /* Adjust CTA lead size */
+            }
+             .cta-section .d-flex {
+                flex-direction: column; /* Stack buttons vertically */
+                align-items: center; /* Center stacked buttons */
+             }
+             .cta-section .btn {
+                 width: 80%; /* Make buttons wider */
+                 margin-bottom: 10px; /* Add space between stacked buttons */
+             }
+             .cta-section .btn:last-child {
+                 margin-bottom: 0;
+             }
+             .footer {
+                 text-align: center; /* Center footer text */
+             }
+             .footer .text-md-end {
+                 text-align: center !important; /* Override Bootstrap alignment */
+                 margin-top: 15px; /* Add space above footer links */
+             }
+             .section {
+                 padding: 60px 0; /* Reduce section padding */
+             }
+        }
+
+         @media (max-width: 576px) {
+            .hero h1 {
+                font-size: 2rem; /* Further reduce H1 size */
+            }
+            .feature-icon {
+                 font-size: 2rem; /* Slightly smaller icons */
+             }
+            .card h3 {
+                font-size: 1.1rem; /* Adjust card heading size */
+            }
+             .success-metrics .display-4 {
+                 font-size: 2.5rem; /* Reduce metric number size */
+             }
+             .testimonial img {
+                 height: 180px !important; /* Adjust testimonial image height */
+             }
+             .testimonial .lead {
+                 font-size: 1rem; /* Adjust testimonial text size */
+             }
+
+         }
+
     </style>
 </head>
 <body>
@@ -197,10 +268,19 @@
             </div>
             
             <!-- Success Metrics -->
-            <div class="row text-center mb-5">
-                <div class="col-md-4">
+            <!-- Added success-metrics class for specific styling -->
+            <div class="row text-center mb-5 success-metrics">
+                <div class="col-md-4 mb-4 mb-md-0"> <!-- Added bottom margin for mobile stacking -->
                     <h3 class="display-4 text-primary">70%</h3>
                     <p>Reduction in Monitoring Time</p>
+                </div>
+                <div class="col-md-4 mb-4 mb-md-0"> <!-- Added bottom margin for mobile stacking -->
+                    <h3 class="display-4 text-primary">98%</h3>
+                    <p>Patient Satisfaction</p>
+                </div>
+                <div class="col-md-4">
+                    <h3 class="display-4 text-primary">2X</h3>
+                    <p>Better Treatment Adherence</p>
                 </div>
                 <div class="col-md-4">
                     <h3 class="display-4 text-primary">98%</h3>
@@ -215,8 +295,9 @@
             <!-- Testimonial -->
             <div class="row justify-content-center">
                 <div class="col-md-8">
-                    <div class="card border-0 shadow-sm">
-                        <div class="card-body text-center p-5">
+                    <!-- Added testimonial class for specific styling -->
+                    <div class="card border-0 shadow-sm testimonial"> 
+                        <div class="card-body text-center p-4 p-md-5"> <!-- Adjusted padding for mobile -->
                             <div class="text-center mb-4">
                                 <!-- Updated image src to reflect potential rename -->
                                 <img src="./static/esc-logo.png" alt="European Society of Cardiology Logo" class="img-fluid" style="height: 250px; object-fit: contain;">
@@ -376,7 +457,7 @@
     </main> <!-- End Main Content Area -->
 
     <!-- Footer -->
-    <footer class="section">
+    <footer class="section footer"> <!-- Added footer class for specific styling -->
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
