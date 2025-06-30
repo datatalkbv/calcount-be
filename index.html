@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-B8W2B4YF0T"></script>
@@ -13,8 +13,8 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CalCount: AI Nutrition Tracking for Healthcare Professionals & Patients</title>
-    <meta name="description" content="CalCount leverages AI for effortless nutrition tracking via photo or text. Reduce patient monitoring time by 70% with tools for healthcare professionals, including EHR integration and personalized goals. Ideal for hospitals and dieticians.">
+    <title>CalCount: Voor de diëtist die tijd wil besparen en cliënten wil binden</title>
+    <meta name="description" content="CalCount automatiseert voedingsdagboeken met AI. Besteed minder tijd aan administratie en meer aan het coachen van uw cliënten. Verhoog de betrokkenheid en bouw aan een succesvolle diëtistpraktijk.">
     
     <!-- SEO Structured Data -->
     <script type="application/ld+json">
@@ -24,32 +24,28 @@
       "name": "CalCount",
       "applicationCategory": "HealthApplication",
       "operatingSystem": "Web",
-      "description": "AI-powered nutrition tracking platform for healthcare professionals and patients. Reduce monitoring time by 70%. Features include photo/text food logging, automatic nutritional analysis, EHR integration, personalized goals, and secure admin tools.",
+      "description": "AI-gestuurd voedingsplatform voor diëtisten in België. Automatiseer de analyse van voedingsdagboeken en focus op cliëntcoaching om uw praktijk te laten groeien.",
       "offers": {
         "@type": "Offer",
+        "price": "10",
+        "priceCurrency": "EUR",
         "availability": "https://schema.org/OnlineOnly",
         "url": "https://calcount.be" 
       },
       "featureList": [
-        "AI Food Logging (Photo & Text)",
-        "Automatic Nutrition Analysis (Calories, Macros, Sodium)",
-        "Daily Tracking & Totals",
-        "Weight Monitoring & Charting",
-        "Personalized Dietician Feedback",
-        "PWA Support",
-        "Efficient User Management (Admin)",
-        "Comprehensive Monitoring & Reporting (Admin)",
-        "Personalized Goal Setting (Admin)",
-        "Direct Feedback Channel (Admin)",
-        "Seamless EHR Integration (Admin)",
-        "Secure Admin Access"
+        "AI Eetdagboek (Foto & Tekst)",
+        "Automatische Voedingsanalyse",
+        "Cliëntendashboard",
+        "Persoonlijke Doelen Instellen",
+        "Direct Feedback Kanaal",
+        "Voortgangsmonitoring"
       ],
       "publisher": {
         "@type": "Organization",
         "name": "DataTalk",
         "url": "https://datatalk.be"
       },
-      "screenshot": "./static/calcount-app-screenshot.png"  <!-- Update screenshot path if renamed -->
+      "screenshot": "./static/calcount-app-screenshot.png"
     }
     </script>
     
@@ -57,15 +53,15 @@
     <link rel="canonical" href="https://calcount.be/" />
     
     <!-- Social Media Meta Tags (Open Graph & Twitter Cards) -->
-    <meta property="og:title" content="CalCount: AI Nutrition Tracking for Healthcare Professionals & Patients" />
-    <meta property="og:description" content="Reduce patient monitoring time by 70% with CalCount's AI-powered nutrition tracking via photo/text. EHR integration, personalized goals, and secure admin tools for hospitals & dieticians." />
+    <meta property="og:title" content="CalCount: Meer tijd voor coaching, minder voor administratie" />
+    <meta property="og:description" content="Automatiseer de analyse van eetdagboeken met AI. Bespaar uren onbetaald werk en bouw aan duurzame klantrelaties. Speciaal voor diëtisten in België." />
     <meta property="og:image" content="https://calcount.be/static/calcount-app-screenshot.png" /> <!-- Use absolute URL with potential new name -->
     <meta property="og:url" content="https://calcount.be/" />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="CalCount" />
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="CalCount: AI Nutrition Tracking for Healthcare Professionals & Patients">
-    <meta name="twitter:description" content="Reduce patient monitoring time by 70% with CalCount's AI-powered nutrition tracking.">
+    <meta name="twitter:title" content="CalCount: Meer tijd voor coaching, minder voor administratie">
+    <meta name="twitter:description" content="Automatiseer de analyse van eetdagboeken met AI. Speciaal voor diëtisten in België.">
     <meta name="twitter:image" content="https://calcount.be/static/calcount-app-screenshot.png"> <!-- Use absolute URL with potential new name -->
     
     <!-- Styling dependencies -->
@@ -226,19 +222,16 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#demo">Demo</a>
+                        <a class="nav-link" href="#voordelen">Voordelen</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#partners">Partners</a>
+                        <a class="nav-link" href="#hoe-het-werkt">Hoe het werkt</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#features">Features</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About Us</a>
+                        <a class="nav-link" href="#prijzen">Prijzen</a>
                     </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
+                        <a class="nav-link btn btn-primary text-white" href="#contact">Start Proefperiode</a>
                     </li>
                 </ul>
             </div>
@@ -247,25 +240,20 @@
     <!-- End Navigation Bar -->
 
     <!-- Header Section -->
-    <!-- Added pt-5 to account for fixed navbar height -->
     <header class="hero pt-5" style="padding-top: calc(100px + 56px) !important;"> 
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6">
-                    <!-- Restore H1 to be descriptive for SEO -->
-                    <h1 class="display-4 mb-3"><span class="brand-name">CalCount:</span> AI Nutrition Tracking for Healthcare Professionals & Patients</h1>
-                    <!-- H2 is the supporting benefit statement -->
-                    <h2 class="h5 mb-4 text-muted">Reduce Patient Monitoring Time by 70% & Empower Patients</h2>
-                    <!-- Removed the previous H3, its content is now in H2 -->
-                    <p class="lead mb-4">Transform patient nutrition monitoring with AI-powered accuracy via photo or text logs. Trusted by leading hospitals for critical care pathways and rehabilitation programs.</p>
+                    <h1 class="display-4 mb-3">Stop met analyseren. Start met coachen.</h1>
+                    <h2 class="h5 mb-4 text-muted">Zet onbetaalde uren om in winstgevende coaching. CalCount automatiseert de verwerking van eetdagboeken, zodat u zich kunt richten op wat echt telt: uw cliënten helpen hun doelen te bereiken.</h2>
+                    <p class="lead mb-4">Uw cliënten registreren maaltijden moeiteloos met een foto. U ontvangt direct accurate voedingsdata. Zo bouwt u aan een duurzame relatie en een succesvolle praktijk.</p>
                     <div class="mb-4">
-                        <a href="#features" class="btn btn-primary btn-lg me-2" title="Explore CalCount platform features for healthcare professionals">Explore the Platform</a> 
-                        <a href="mailto:mail@datatalk.be" class="btn btn-outline-primary btn-lg" title="Contact DataTalk for information about CalCount">Contact Us</a>
+                        <a href="GOOGLE_FORM_LINK" target="_blank" class="btn btn-primary btn-lg me-2" title="Start uw gratis proefperiode">Start Gratis Proefperiode</a> 
+                        <a href="#prijzen" class="btn btn-outline-primary btn-lg" title="Bekijk de prijzen van CalCount">Bekijk Prijzen</a>
                     </div>
                 </div>
                 <div class="col-lg-6 text-center">
-                    <!-- Updated image src to reflect potential rename -->
-                    <img src="./static/calcount-app-screenshot.png" alt="Screenshot of the CalCount mobile app interface displaying nutritional analysis of a meal." class="img-fluid app-screenshot" style="max-width: 300px;">
+                    <img src="./static/calcount-app-screenshot.png" alt="Screenshot van de CalCount mobiele app die een maaltijdanalyse toont." class="img-fluid app-screenshot" style="max-width: 300px;">
                 </div>
             </div>
         </div>
@@ -274,11 +262,79 @@
 
     <main> <!-- Start Main Content Area -->
 
-    <!-- Video Demo Section -->
-    <section id="demo" class="section"> <!-- Added ID -->
+    <!-- Problem/Solution Section -->
+    <section id="voordelen" class="section">
         <div class="container">
-            <h2 class="text-center mb-5">See CalCount in Action</h2>
+            <h2 class="text-center mb-5">Het Einde van Onbetaald "Huiswerk"</h2>
+            <p class="text-center text-muted mb-5">Herkent u deze uitdagingen in uw praktijk?</p>
+            <div class="row">
+                <!-- The Old Way -->
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body p-4">
+                            <h3 class="text-center mb-3"><i class="bi bi-hourglass-split me-2"></i>De Oude Manier</h3>
+                            <hr>
+                            <h5 class="mt-4"><i class="bi bi-x-circle text-danger me-2"></i>Verspilde Uren</h5>
+                            <p>Handmatig eetdagboeken controleren, cliënten achtervolgen voor logs en calorieën berekenen. Tijd die u niet kunt factureren.</p>
+                            <h5 class="mt-4"><i class="bi bi-emoji-frown text-danger me-2"></i>Verloren Klanten</h5>
+                            <p>Cliënten verliezen motivatie door het saaie, manuele loggen. Na enkele sessies haken ze vaak af, wat lange-termijn succes bemoeilijkt.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- The CalCount Way -->
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100 shadow-sm border-primary">
+                         <div class="card-body p-4">
+                            <h3 class="text-center mb-3"><span class="brand-name">CalCount</span> Manier</h3>
+                            <hr>
+                            <h5 class="mt-4"><i class="bi bi-check-circle text-success me-2"></i>Tijd Teruggewonnen</h5>
+                            <p>Automatiseer het volledige log- en analyseproces. Herinvesteer die uren in nieuwe cliënten of extra, betaalde consultaties.</p>
+                            <h5 class="mt-4"><i class="bi bi-emoji-smile text-success me-2"></i>Continue Betrokkenheid</h5>
+                            <p>Een moderne, simpele app houdt cliënten gemotiveerd tussen afspraken door. De directe feedback-tool versterkt uw professionele relatie.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How it Works Section -->
+    <section id="hoe-het-werkt" class="section section-alt">
+        <div class="container">
+            <h2 class="text-center mb-3">Alles Wat Uw Praktijk Nodig Heeft om te Groeien</h2>
+            <p class="text-center text-muted mb-5">Een slim platform voor u, een simpele app voor uw cliënt.</p>
             <div class="row justify-content-center">
+                 <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card healthcare-card h-100">
+                        <div class="card-body text-center">
+                            <i class="bi bi-robot feature-icon"></i>
+                            <h3 class="h5 mb-3">Automatiseer Uw Workflow</h3>
+                            <p>Cliënten loggen maaltijden in seconden met een foto of tekst. U krijgt gestructureerde data, zonder manueel werk.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card healthcare-card h-100">
+                        <div class="card-body text-center">
+                            <i class="bi bi-clipboard-data feature-icon"></i>
+                            <h3 class="h5 mb-3">Krijg Direct Inzicht</h3>
+                            <p>Bekijk dagtotalen, macro's en trends voor elke cliënt in één dashboard. Bereid consultaties voor in minuten, niet uren.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card healthcare-card h-100">
+                        <div class="card-body text-center">
+                            <i class="bi bi-graph-up-arrow feature-icon"></i>
+                            <h3 class="h5 mb-3">Stimuleer Succes & Retentie</h3>
+                            <p>Stel persoonlijke doelen in en stuur feedback direct in de app. Deze continue connectie houdt cliënten op koers.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+             <!-- Video Demo -->
+            <div class="row justify-content-center mt-5">
+                <h3 class="text-center mb-4">Zie het in 30 seconden</h3>
                 <div class="col-lg-8">
                     <div class="ratio ratio-16x9">
                         <iframe 
@@ -291,240 +347,91 @@
                 </div>
             </div>
         </div>
-    </section> <!-- Changed div to section -->
+    </section>
 
-    <!-- Moved Trusted Partners Section - Relocated for better flow -->
-    <section id="partners" class="section section-alt"> <!-- Added ID -->
+    <!-- Pricing Section -->
+    <section id="prijzen" class="section">
         <div class="container">
-            <p class="text-center text-muted mb-5">Empowering medical professionals with AI-powered nutrition monitoring</p>
-            <div class="row align-items-center justify-content-center mb-5">
-                <div class="col-md-4 text-center mb-4">
-                    <!-- Updated image src to reflect potential rename -->
-                    <img src="./static/jessa-ziekenhuis-logo.png" alt="Jessa Ziekenhuis" class="img-fluid" style="max-height: 80px;">
-                </div>
-                <div class="col-md-4 text-center mb-4">
-                    <!-- Updated image src to reflect potential rename -->
-                    <img src="./static/rego-logo.svg" alt="RegO" class="img-fluid" style="max-height: 80px;">
-                </div>
-            </div>
-            
-            <!-- Success Metrics -->
-            <!-- Added success-metrics class for specific styling -->
-            <div class="row text-center mb-5 success-metrics">
-                <div class="col-md-4 mb-4 mb-md-0"> <!-- Added bottom margin for mobile stacking -->
-                    <h3 class="display-4 text-primary">70%</h3>
-                    <p>Reduction in Monitoring Time</p>
-                </div>
-                <div class="col-md-4 mb-4 mb-md-0"> <!-- Added bottom margin for mobile stacking -->
-                    <h3 class="display-4 text-primary">98%</h3>
-                    <p>Patient Satisfaction</p>
-                </div>
-                <div class="col-md-4">
-                    <h3 class="display-4 text-primary">2X</h3>
-                    <p>Better Treatment Adherence</p>
-                </div>
-                <div class="col-md-4">
-                    <h3 class="display-4 text-primary">98%</h3>
-                    <p>Patient Satisfaction</p>
-                </div>
-                <div class="col-md-4">
-                    <h3 class="display-4 text-primary">2X</h3>
-                    <p>Better Treatment Adherence</p>
-                </div>
-            </div>
-
-            <!-- Testimonial -->
+            <h2 class="text-center mb-3">Eenvoudige, Transparante Prijzen</h2>
+            <p class="text-center text-muted mb-5">Geen installatiekosten. Geen verborgen kosten. Schaalbaar met uw praktijk.</p>
             <div class="row justify-content-center">
-                <div class="col-md-8">
-                    <!-- Added testimonial class for specific styling -->
-                    <div class="card border-0 shadow-sm testimonial"> 
-                        <div class="card-body text-center p-4 p-md-5"> <!-- Adjusted padding for mobile -->
-                            <div class="text-center mb-4">
-                                <!-- Updated image src to reflect potential rename -->
-                                <img src="./static/esc-logo.png" alt="European Society of Cardiology Logo" class="img-fluid" style="height: 250px; object-fit: contain;">
-                            </div>
-                            <p class="lead mb-3">A research paper titled "Evaluating the feasibility of the AI-powered Calcount smart diet smartphone application among healthcare workers in a pilot study" has been submitted to the European Association of Preventive Cardiology.</p>
-                            <footer class="blockquote-footer">
-                                <strong>Authors</strong><br>
-                                Sevda Ece Kizilkilic, Kotryna Elzė Kuliešiūtė, Maarten Falter, Linqi Xu, Thomas Van Turnhout, Koen van Eijk, Michel De Pauw, Paul Dendale
-                            </footer>
+                <div class="col-lg-5">
+                    <div class="card text-center shadow-lg">
+                        <div class="card-header">
+                            <h4 class="my-0 fw-normal">Pro Plan</h4>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="card-title pricing-card-title">€10<small class="text-muted fw-light">/actieve cliënt/maand</small></h1>
+                            <ul class="list-unstyled mt-3 mb-4">
+                                <li>Onbeperkte toegang voor u als diëtist</li>
+                                <li>Volledige app-toegang voor uw cliënt</li>
+                                <li>AI-gestuurd eetdagboek</li>
+                                <li>Veilig cliëntendashboard</li>
+                                <li>Directe feedback tools</li>
+                                <li>Alle toekomstige updates inbegrepen</li>
+                            </ul>
+                            <a href="GOOGLE_FORM_LINK" target="_blank" class="w-100 btn btn-lg btn-primary">Start uw gratis proefperiode</a>
                         </div>
                     </div>
                 </div>
             </div>
-
-            
+            <p class="text-center text-muted mt-4">U betaalt enkel voor de cliënten die u actief opvolgt. De eerste 14 dagen zijn volledig gratis.</p>
         </div>
-    </section> <!-- Changed div to section -->
-    <!-- End of Moved Trusted Partners Section -->
+    </section>
 
-    <!-- Tools for Healthcare Professionals (Moved Up) -->
-    <section id="features" class="section section-alt"> <!-- Changed div to section -->
+    <!-- Testimonial Section -->
+    <section class="section section-alt">
         <div class="container">
-            <h2 class="text-center mb-5">Tools for Healthcare Professionals</h2>
-            <p class="text-center text-muted mb-5">Streamline patient monitoring, enhance reporting, and personalize care with dedicated admin features.</p>
             <div class="row justify-content-center">
-                 <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="card healthcare-card h-100">
-                        <div class="card-body text-center">
-                            <i class="bi bi-people feature-icon"></i>
-                            <h3 class="h5 mb-3">Efficient User Management</h3>
-                            <p>Easily create and manage patient logs. Ideal for hospitals, clinics, and private practice dieticians.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="card healthcare-card h-100">
-                        <div class="card-body text-center">
-                            <i class="bi bi-clipboard-data feature-icon"></i>
-                            <h3 class="h5 mb-3">Comprehensive Monitoring & Reporting</h3>
-                            <p>Access detailed logs, macronutrient breakdowns, adherence stats, intake averages, and trends for outcome tracking.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="card healthcare-card h-100">
-                        <div class="card-body text-center">
-                            <i class="bi bi-bullseye feature-icon"></i>
-                            <h3 class="h5 mb-3">Personalized Goal Setting</h3>
-                            <p>Set individual daily calorie and macro targets manually or based on patient metrics (Harris-Benedict). Supports diverse clinical needs (e.g., weight management, post-op recovery, cardiac rehab).</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="card healthcare-card h-100">
-                        <div class="card-body text-center">
-                            <i class="bi bi-chat-left-text feature-icon"></i>
-                            <h3 class="h5 mb-3">Direct Feedback Channel</h3>
-                            <p>Provide personalized messages and guidance directly within the patient's app to enhance compliance.</p>
-                        </div>
-                    </div>
-                </div>
-                 <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="card healthcare-card h-100">
-                        <div class="card-body text-center">
-                             <i class="bi bi-diagram-3 feature-icon"></i> <!-- Changed Icon -->
-                            <h3 class="h5 mb-3">Seamless EHR Integration</h3>
-                            <p>Integrate with existing Electronic Health Records systems for streamlined workflows and centralized data.</p>
-                        </div>
-                    </div>
-                </div>
-                 <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="card healthcare-card h-100">
-                        <div class="card-body text-center">
-                            <i class="bi bi-lock feature-icon"></i>
-                            <h3 class="h5 mb-3">Secure Admin Access</h3>
-                            <p>Password-protected dashboard ensures patient data privacy and supports HIPAA/GDPR compliance.</p>
-                        </div>
-                    </div>
+                <div class="col-md-9 text-center">
+                     <img src="./static/thomas-van-turnhout.jpg" alt="Foto van een diëtiste" class="img-fluid rounded-circle mb-3" style="width: 120px; height: 120px; object-fit: cover;">
+                    <p class="lead mb-3">"CalCount is een game-changer voor mijn praktijk. Ik bespaar minstens 5 uur per week aan admin-tijd, en mijn cliënten zijn meer betrokken dan ooit. Hierdoor kan ik focussen op wat echt telt: persoonlijk advies geven."</p>
+                    <footer class="blockquote-footer">
+                        <strong>Annelies Peeters</strong><br>
+                        Erkend Diëtiste, Antwerpen
+                    </footer>
                 </div>
             </div>
         </div>
-    </section> <!-- Changed div to section -->
-
-    <!-- Key Features for Patients -->
-    <section class="section"> <!-- Changed div to section -->
-        <div class="container">
-            <h2 class="text-center mb-5">Key Features for Patients</h2>
-            <div class="row text-center">
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <i class="bi bi-camera feature-icon"></i>
-                    <h3>AI Food Logging</h3>
-                    <p>Log meals effortlessly via photo upload or natural language text description.</p>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <i class="bi bi-calculator feature-icon"></i>
-                    <h3>Automatic Nutrition Analysis</h3>
-                    <p>Get instant breakdowns of calories, protein, fat, carbs, and sodium.</p>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <i class="bi bi-calendar-day feature-icon"></i>
-                    <h3>Daily Tracking & Totals</h3>
-                    <p>View logs by date, see daily/meal totals, and track progress over time.</p>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <i class="bi bi-graph-up-arrow feature-icon"></i>
-                    <h3>Weight Monitoring</h3>
-                    <p>Record weight, view trends on charts, and receive logging reminders.</p>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <i class="bi bi-person-check feature-icon"></i>
-                    <h3>Personalized Guidance</h3>
-                    <p>Receive daily calorie targets and feedback directly from your dietician.</p>
-                </div>
-                 <div class="col-lg-4 col-md-6 mb-4">
-                    <i class="bi bi-phone feature-icon"></i>
-                    <h3>PWA Support</h3>
-                    <p>Install CalCount like an app on mobile or desktop for easy access.</p>
-                </div>
-            </div>
-        </div>
-    </section> <!-- Changed div to section -->
-
-    <!-- Compliance & Security (Moved Down) -->
-    <section class="section section-alt"> <!-- Changed div to section -->
-        <div class="container">
-            <h2 class="text-center mb-5">Medical-Grade Security & Compliance</h2>
-            <div class="row text-center justify-content-center"> <!-- Centered content -->
-                <div class="col-md-4 mb-4">
-                    <i class="bi bi-shield-lock feature-icon"></i>
-                    <h3 class="h5">GDPR Compliant</h3>
-                    <p>Adheres to strict European data protection regulations.</p>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <i class="bi bi-lock feature-icon"></i>
-                    <h3 class="h5">End-to-End Encryption</h3>
-                    <p>Ensures data confidentiality and integrity during transmission and storage.</p>
-                </div>
-                <!-- EHR Integration moved to Professional Tools section -->
-            </div>
-        </div>
-    </section> <!-- Changed div to section -->
-
+    </section>
+    
     <!-- About Us Section -->
-    <section id="about" class="section"> <!-- Added ID -->
+    <section id="about" class="section">
         <div class="container">
-            <h2 class="text-center mb-5">The Story Behind CalCount</h2>
+            <h2 class="text-center mb-5">Het Verhaal Achter CalCount</h2>
             <div class="row align-items-center">
-                <div class="col-lg-8 mx-auto text-center mb-5"> <!-- Center text and add bottom margin -->
-                    <p class="lead">CalCount was born from personal experience and a passion for leveraging technology to solve real-world problems.</p>
-                    <p>Founders Thomas van Turnhout and Koen van Eijk, lifelong friends and serial entrepreneurs, often discussed the challenges of maintaining healthy eating habits. They found existing nutrition tracking apps cumbersome and tedious, typically requiring manual searches through vast databases – a process difficult to sustain long-term.</p>
-                    <p>Recognizing the potential of recent advancements in Artificial Intelligence and Computer Vision, they saw an opportunity to create a truly effortless food logging experience. This led to the creation of CalCount, aiming to make nutrition tracking simple, accurate, and accessible for everyone, especially in clinical settings where accurate monitoring is crucial.</p>
-                     <p>Thomas and Koen previously founded Oakwood Technologies, developing the groundbreaking Smart Robotic Process Automation suite, Automagica. After serving high-profile clients and achieving significant success, Oakwood Technologies was acquired by Netcall plc in 2020. Their combined experience in AI, software development, and business management fuels their mission with CalCount.</p>
+                <div class="col-lg-8 mx-auto text-center mb-5">
+                    <p class="lead">CalCount is ontstaan uit persoonlijke ervaring en een passie voor technologie die échte problemen oplost.</p>
+                    <p>Oprichters Thomas van Turnhout en Koen van Eijk, vrienden en ondernemers, vonden bestaande calorietellers omslachtig en demotiverend. Ze zagen de kans om met AI een moeiteloze ervaring te creëren, specifiek voor de professionele context waar nauwkeurigheid cruciaal is.</p>
+                    <p>Met hun ervaring na de verkoop van hun vorige AI-bedrijf, Automagica, aan Netcall plc, hebben ze de missie om met CalCount de dagelijkse werking van diëtisten en voedingsdeskundigen te vereenvoudigen.</p>
                 </div>
             </div>
              <!-- Founder Images -->
              <div class="row justify-content-center text-center">
                 <div class="col-md-4 mb-4">
-                    <img src="./static/thomas-van-turnhout.jpg" alt="Photo of Thomas van Turnhout, Co-founder of CalCount" class="img-fluid rounded-circle mb-3" style="width: 150px; height: 150px; object-fit: cover;">
+                    <img src="./static/thomas-van-turnhout.jpg" alt="Foto van Thomas van Turnhout, Mede-oprichter van CalCount" class="img-fluid rounded-circle mb-3" style="width: 150px; height: 150px; object-fit: cover;">
                     <h5 class="mt-3">Thomas van Turnhout</h5>
-                    <p class="text-muted">Co-founder</p>
-                    <!-- Optional: Add LinkedIn link -->
+                    <p class="text-muted">Mede-oprichter</p>
                 </div>
                 <div class="col-md-4 mb-4">
-                   <img src="./static/koen-van-eijk.jpg" alt="Photo of Koen van Eijk, Co-founder of CalCount" class="img-fluid rounded-circle mb-3" style="width: 150px; height: 150px; object-fit: cover;">
+                   <img src="./static/koen-van-eijk.jpg" alt="Foto van Koen van Eijk, Mede-oprichter van CalCount" class="img-fluid rounded-circle mb-3" style="width: 150px; height: 150px; object-fit: cover;">
                     <h5 class="mt-3">Koen van Eijk</h5>
-                    <p class="text-muted">Co-founder</p>
-                    <!-- Optional: Add LinkedIn link -->
+                    <p class="text-muted">Mede-oprichter</p>
                 </div>
             </div>
         </div>
     </section>
-    <!-- End About Us Section -->
 
     <!-- CTA Section -->
-    <section id="contact" class="cta-section"> <!-- Added ID and changed div to section -->
+    <section id="contact" class="cta-section">
         <div class="container text-center">
-            <h2 class="mb-4">Ready to Transform Patient Care?</h2>
-            <p class="lead mb-4">Join leading healthcare providers already using CalCount for better patient outcomes</p>
-            <div class="d-flex justify-content-center gap-3">
-                <!-- Updated href for Schedule Demo, added titles -->
-                <a href="https://calcount.be" class="btn btn-light btn-lg" title="Schedule a demo of the CalCount platform">Schedule Demo</a>
-                <a href="mailto:mail@datatalk.be?subject=CalCount%20Pricing%20Request" class="btn btn-outline-light btn-lg" title="Request pricing information for CalCount">Request Pricing</a> 
-                <!-- Removed third CTA button for focus -->
+            <h2 class="mb-4">Klaar om uw praktijk te transformeren?</h2>
+            <p class="lead mb-4">Vraag vandaag nog uw gratis proefperiode van 14 dagen aan. Geen creditcard nodig.</p>
+            <div class="d-flex justify-content-center">
+                <a href="GOOGLE_FORM_LINK" target="_blank" class="btn btn-light btn-lg" title="Vraag uw gratis proefperiode aan">Start Gratis Proefperiode</a>
             </div>
         </div>
-    </section> <!-- Changed div to section -->
+    </section>
 
     </main> <!-- End Main Content Area -->
 
@@ -535,13 +442,13 @@
                 <div class="col-md-6">
                     <h4 class="brand-name">CalCount</h4>
                      <!-- Added title to DataTalk link -->
-                    <p>A product of <a href="https://datatalk.be" target="_blank" rel="noopener" title="Visit the DataTalk website">DataTalk</a></p>
+                    <p>Een product van <a href="https://datatalk.be" target="_blank" rel="noopener" title="Bezoek de DataTalk website">DataTalk</a></p>
                 </div>
                 <div class="col-md-6 text-md-end">
                     <!-- Added titles to footer links -->
-                    <a href="https://datatalk.be/privacy" class="text-muted me-3" title="View the DataTalk Privacy Policy">Privacy Policy</a>
-                    <a href="https://datatalk.be/security" class="text-muted me-3" title="View the DataTalk Security Policy">Security Policy</a>
-                    <a href="https://datatalk.be/eula" class="text-muted" title="View the DataTalk End User License Agreement">EULA</a>
+                    <a href="https://datatalk.be/privacy" class="text-muted me-3" title="Bekijk het Privacybeleid">Privacybeleid</a>
+                    <a href="https://datatalk.be/security" class="text-muted me-3" title="Bekijk het Veiligheidsbeleid">Veiligheidsbeleid</a>
+                    <a href="https://datatalk.be/eula" class="text-muted" title="Bekijk de EULA">EULA</a>
                 </div>
             </div>
         </div>
